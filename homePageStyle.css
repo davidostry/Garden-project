@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mypurple: rgb(176, 120, 176);
+    --myturquoise: rgb(125, 217, 208);
+    --mygreen: rgb(144, 228, 144);
+
+}
+
+.navMain {
+    height: 12vh;
+    background-color: var(--mypurple);
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.mainMain {
+    height: 73vh;
+    background-color: var(--mygreen);
+    display: flex;
+align-items: center;
+        flex-direction: column;
+}
+
+.footer {
+    height: 15vh;
+}
+
+.logoImg {
+    height: 90%;
+    margin: 3px;
+
+}
+
+.linkHomePage {
+    text-decoration: none;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: var(--myturquoise);
+    padding: 10px;
+}
+
+.linkContact {
+    text-decoration: none;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: var(--mygreen);
+}
+
+.myTytle {
+    display: block;
+
+}
+
+.mySubTytle {display: block;
+
+}
