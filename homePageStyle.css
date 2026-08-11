@@ -7,13 +7,17 @@
 :root {
     --mypurple: rgb(176, 120, 176);
     --myturquoise: rgb(125, 217, 208);
-    --mygreen: rgb(144, 228, 144);
+    --mygreen: rgb(181, 222, 181);
+    --myorang: orange;
+    --mybloue: lightblue;
+    --myblack: black;
+    --myhardgreen:rgb(20, 179, 20);
 
 }
 
 .navMain {
     height: 12vh;
-    background-color: var(--mypurple);
+    background-color: var(--mybloue);
     display: flex;
     align-items: center;
 
@@ -25,7 +29,7 @@
     height: 80vh;
     background-color: var(--mygreen);
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     align-items: center;
 
 }
@@ -41,7 +45,7 @@
 .linkHomePage {
     text-decoration: none;
     margin-left: 30px;
-    border: 2px solid black;
+  
     border-radius: 25px;
     background-color: var(--myturquoise);
     padding: 10px;
@@ -50,7 +54,7 @@
 .linkContact {
     text-decoration: none;
     margin-left: 30px;
-    border: 2px solid black;
+    border: 2px solid var(--myturquoise);
     border-radius: 25px;
     padding: 10px;
     background-color: var(--mygreen);
@@ -59,8 +63,7 @@
 .myTytle {
     display: block;
     margin-top: 20px;
-
-
+    color: var(--myorang);
 }
 
 .mySubTytle {
@@ -75,8 +78,17 @@
     grid-template-areas:
         "flowersTytle flowersTytle flowersTytle"
         "flowersSubTytle flowersSubTytle flowersSubTytle";
+    width: 80%;
+    border: solid 2px var(--myblack);
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
 
 
+}
+
+.linkTytle {
+    color: var(--myorang);
 }
 
 .flowersTytle {
@@ -90,10 +102,67 @@
 
 
 .flowersLink {
-    border: solid black 2px;
+    padding: 5px;
+    border: solid 2px var(--myblack);
     text-decoration: none;
     border-radius: 5px;
+    background-color: var(--mybloue);
 
+
+}
+
+.divInformation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-areas:
+        "titleInformation titleInformation titleInformation titleInformation"
+        "subTitleInformation subTitleInformation subTitleInformation subTitleInformation";
+    width: 80%;
+    border: solid 2px var(--myblack);
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.titleInformation {
+    grid-area: titleInformation;
+
+}
+
+.subTitleInformation {
+    grid-area: subTitleInformation
+}
+
+.infoSection {
+    padding: 5px;
+    border: solid 2px var(--myblack);
+
+    border-radius: 5px;
+    background-color: var(--mybloue);
+}
+
+.numInfo {
+    color: var(--myorang);
+}
+
+.divContact {
+    border-radius: 5px;
+    gap: 5px;
+    border: solid 2px var(--myblack);
+    margin-top: 1%;
+    padding: 1%;
+    background-color: var(--mybloue);
+}
+
+.contactLink {
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid var(--myblack);
+    text-decoration: none;
+    background-color: var(--myhardgreen);
+    display: inline-block;
 }
 
 .footerMain {
@@ -117,5 +186,5 @@
 .footerText {
     margin-left: 30%;
     font-size: 130%;
-    color: purple;
+    color: var(--mypurple);
 }

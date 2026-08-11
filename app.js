@@ -4,7 +4,9 @@ const app = express()
 
 app.use(express.json())
 
-app.get("/garden",(res, req)=>{
+app.use(express.urlencoded())
+
+app.post("/garden",(req, res)=>{
     res.send("hello from michal's garden")
 })
 

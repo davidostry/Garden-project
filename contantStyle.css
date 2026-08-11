@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mypurple: rgb(176, 120, 176);
+    --myturquoise: rgb(125, 217, 208);
+    --mygreen: rgb(183, 222, 183);
+    --myorang: orange;
+    --mybloue: lightblue;
+    --myblack: black;
+    --myhardgreen: rgb(20, 179, 20);
+
+}
+
+.navMain {
+    height: 12vh;
+    background-color: var(--mypurple);
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.mainMain {
+    height: 80vh;
+    background-color: var(--mygreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.logoImg {
+    height: 90%;
+    margin: 3px;
+
+}
+
+.linkHomePage {
+    text-decoration: none;
+    margin-left: 30px;
+
+    border-radius: 25px;
+    background-color: var(--mygreen);
+    padding: 10px;
+}
+
+.linkContact {
+    text-decoration: none;
+    margin-left: 30px;
+    border: 2px solid var(--myturquoise);
+    border-radius: 25px;
+    padding: 10px;
+    background-color: var(--myturquoise);
+}
+
+.navMain {
+    height: 12vh;
+    background-color: var(--mybloue);
+    display: flex;
+    align-items: center;
+}
+
+.divDitailes {
+    display: flex;
+    flex-direction: column;
+    height: 23%;
+    gap: 5px;
+    width: 80%;
+    border: solid 2px var(--myblack);
+    background-color: var(--mybloue);
+    margin-top: 2%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.detailes2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.detailes {
+    background-color: var(--myturquoise);
+    border: solid 2px var(--myblack);
+    padding: 1%;
+    margin: 10px;
+}
+
+.mainMain {
+    height: 80vh;
+    background: var(--mygreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.myTytle {
+    display: block;
+    margin-top: 20px;
+    color: var(--myorang);
+}
+
+.mySubTytle {
+    display: block;
+    margin-top: 7px;
+}
+
+.divForm{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "";
+
+}
+
+.formDetails{
+    
+}
+
+.footerMain {
+    height: 8vh;
+    background-color: var(--myturquoise);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerHomePage {
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.footerContact {
+    text-decoration: none;
+}
+
+.footerText {
+    margin-left: 30%;
+    font-size: 130%;
+    color: var(--mypurple);
+}

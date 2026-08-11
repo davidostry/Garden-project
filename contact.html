@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="contantStyle.css">
 </head>
-<body>
-    <header><nav>
-        <a class="linkContact" href="http://127.0.0.1:5500/contact.html">CONTACT</a>
-        <a class="linkHomePage" href="http://127.0.0.1:5500/homePage.html">HOME PAGE</a></nav></header>
-        <main></main>
-        <footer class="footer">
-             <a class="linkHomePage" href="http://127.0.0.1:5500/homePage.html">HOME PAGE</a>
-            <a class="linkContact" href="http://127.0.0.1:5500/contact.html">CONTANT</a>
 
-        </footer>
-    
+<body>
+    <header>
+        <nav>
+            <nav class="navMain">
+                <img class="logoImg" src="ChatGPT Image Aug 10, 2026, 03_31_07 PM.png" alt="logo of michal's garden">
+                <a class="linkContact" href="http://127.0.0.1:5500/contact.html">CONTACT</a>
+                <a class="linkHomePage" href="http://127.0.0.1:5500/homePage.html">HOME PAGE</a>
+
+
+            </nav>
+            <main class="mainMain">
+                <h1 class="myTytle">we love to hear from you</h1>
+                <h2 class="mySubTytle">questions about plants caring, oreders and deliveries - all of the ansers are
+                    here </h2>
+
+
+                <div class="divDitailes">
+                    <h2>how to find us?</h2>
+                    <div class="detailes2">
+                        <section class="detailes">
+                            <h2>Adress</h2>
+                            <p>hagefen street</p>
+                        </section>
+                        <section class="detailes">
+                            <h2>Opening hours</h2>
+                            <p>sunday-thursday 9:00-19:00</p>
+                        </section>
+                        <section class="detailes">
+                            <h2>Friday</h2>
+                            <p>9:00-14:00</p>
+                        </section>
+                        <section class="detailes">
+                            <h2>Fon</h2>
+                            <p>03-1234567</p>
+                    </div>
+                    </section>
+                </div>
+                <div class="divForm">
+                    <form action="http://localhost:3000/garden" method="post">
+                        <label class="formDetails">
+                            full name
+                            <input type="text" name="full name" placeholder="michal cohen" required maxlength="2">
+
+                        </label>
+                        <label class="formDetails">
+                            email
+                            <input type="email" name="email" placeholder="example@gmail.com" minlength="5">
+                        </label>
+                        <label class="formDetails">
+                            how can we help you?
+                            <select name="flowers" id="flower">
+                                <option value="general question">general question</option>
+                                <option value="specific question">specific question</option>
+                                <option value="other question">other question</option>
+                            </select>
+                        </label>
+                        <label class="formDetails">
+                            tell us more
+                            <input type="text" name="more" placeholder="for example: loking for a plant for dining hall..." minlength="5">
+                        </label>
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+
+            </main>
+            <footer class="footerMain">
+                <a class="footerHomePage" href="http://127.0.0.1:5500/homePage.html">HOME PAGE</a>
+                <a class="footerContact" href="http://127.0.0.1:5500/contact.html">CONTACT</a>
+                <p class="footerText">the garden of michal in city</p>
+
+
+            </footer>
+
 </body>
+
 </html>
